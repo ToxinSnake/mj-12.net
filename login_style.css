@@ -1,0 +1,90 @@
+
+body { 
+	background-color: #000;
+	background-image: url("images/login2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	font-family: "Lucida Console", Helvetica, sans-serif;
+	color: white;
+}
+
+div {
+	border: 2px solid blue;
+}
+
+.login_form {
+	position: absolute;
+	height: 390px;
+	width: 706px;
+	top: 50%;
+	left: 50%;
+	margin: -197px 0 0 -355px;
+}
+
+.login_form .descriptors {
+	position: absolute;
+	height: 118px;
+	width: 182px;
+	top: 77px;
+	left: 28px;
+}
+
+.login_form .descriptors h5{
+	font-size: 28px;
+}
+
+.login_form .inputfields {
+	position: absolute;
+	height: 118px;
+	width: 270px;
+	top: 77px;
+	left: 228px;
+}
+
+.login_form .inputfields .fields{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	font-size: 20px;
+	color: white;
+}
+
+.login_form .inputbuttons {
+	position: absolute;
+	height: 40px;
+	width: 340px;
+	bottom: 0px;
+	right: 0px;
+}
+
+.login_form .inputbuttons .button{
+	background-color:rgb(170,170,170);
+	padding-top: 10px;
+	padding-right:80px;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+
+.login_form .responsetext {
+	position: absolute;
+	height: 54px;
+	width: 658px;
+	bottom: 96px;
+	left: 30px;
+}
+
+.login_form .flavourtext {
+	position: absolute;
+	height: 30px;
+	width: 658px;
+	bottom: 52px;
+	left: 30px;
+}
+
+.login_form .flavourtext p{
+	margin: 0;
+	padding-top: 7px;
+	padding-left: 5px;
+	font-size: 17px;
+}
