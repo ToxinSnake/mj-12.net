@@ -1,16 +1,16 @@
 
-body { 
+body {
 	background-color: #000;
 	background-image: url("images/login2.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-position: center; 
+	background-position: center;
 	font-family: "Lucida Console", Helvetica, sans-serif;
 	color: white;
 }
 
 div {
-	border: 2px solid blue;
+	outline: 2px solid blue;
 }
 
 .login_form {
@@ -19,7 +19,7 @@ div {
 	width: 706px;
 	top: 50%;
 	left: 50%;
-	margin: -197px 0 0 -355px;
+	margin: -195px 0 0 -353px;
 }
 
 .login_form .descriptors {
@@ -39,7 +39,7 @@ div {
 	height: 118px;
 	width: 270px;
 	top: 77px;
-	left: 228px;
+	left: 230px;
 }
 
 .login_form .inputfields .fields{
